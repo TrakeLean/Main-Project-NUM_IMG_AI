@@ -1,0 +1,5 @@
+opencv-contrib-python 
+numpy
+tensorflow
+tensorflow_datasets
+imutils
