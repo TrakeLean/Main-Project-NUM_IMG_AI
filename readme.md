@@ -10,11 +10,11 @@ An AI that's able to recognize the digits from 0 to 9. through your webcam. It's
 
 ### Dependencies
 
-opencv-contrib-python 
-numpy
-tensorflow
-tensorflow_datasets
-imutils
+*opencv-contrib-python 
+*numpy
+*tensorflow
+*tensorflow_datasets
+*imutils
 
 ### Installing
 
@@ -22,11 +22,17 @@ imutils
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
+There are two configurations when running the program. One is able to recognize more than two digits at the same time, but it has a major bug. The other one can only do two.
+
+in cell 27 is where you choose between these two configurations.
 ```
-code blocks for commands
+temp_window = crop_shape(temp_window, zoom_ratio, 0, centercoords)
 ```
+and 
+```
+temp_window = zoom_at(temp_window, zoom_ratio, 0, centercoords)
+```
+
 
 ## Help
 
