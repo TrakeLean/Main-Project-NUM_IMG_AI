@@ -10,11 +10,11 @@ An AI that's able to recognize the digits from 0 to 9. through your webcam. It's
 
 ### Dependencies
 
-*opencv-contrib-python 
-*numpy
-*tensorflow
-*tensorflow_datasets
-*imutils
+* opencv-contrib-python 
+* numpy
+* tensorflow
+* tensorflow_datasets
+* imutils
 
 ### Installing
 
@@ -28,18 +28,19 @@ in cell 27 is where you choose between these two configurations.
 ```
 temp_window = crop_shape(temp_window, zoom_ratio, 0, centercoords)
 ```
-and 
 ```
 temp_window = zoom_at(temp_window, zoom_ratio, 0, centercoords)
 ```
+The last one runs fine without any bugs, while the first one has a bug that makes the program crash.
 
+the thing you have to be careful of when use the first configuration, is not creating any contours that has x or y values below the value in variable "init_zoom" in the function crop_shape. If you do, the program will crash.
 
+![Alt text](readmeImgs/boundaries.png?raw=true "Title")
 ## Help
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+You have to run the program in a dark room for it to work properly. If you have a bright light source in the room, it will not work. You can use your phone to draw the numbers on while also turning up the brightness for the webcam to see it.
+
+
 
 ## Authors
 
