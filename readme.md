@@ -47,7 +47,7 @@ The program removes all the extra windows created while running when it doesn't 
 To shut the program down you have to press "q" on your keyboard.
 
 You also want to make sure that you're placing the number in the middle of the screen, so that the program can recognize it properly.
-<img src="readmeImgs/placement.png" width="400">
+<img src="readmeImgs/placement.png" width="200">
 
 this is a problem that the first configuration fixed since it's able to zoom in on the number.
 
