@@ -35,11 +35,17 @@ The last one runs fine without any bugs, while the first one has a bug that make
 
 the thing you have to be careful of when use the first configuration, is not creating any contours that has x or y values below the value in variable "init_zoom" in the function crop_shape. If you do, the program will crash.
 
-<img src="readmeImgs/boundaries.png" width="200">
+Here's the crash boundaries for the first configuration, when the "init_zoom" is 170:
+<img src="readmeImgs/boundaries.png" width="500">
+
 ## Help
 
 You have to run the program in a dark room for it to work properly. If you have a bright light source in the room, it will not work. You can use your phone to draw the numbers on while also turning up the brightness for the webcam to see it.
 
+The program removes all the extra windows created while running when it doesn't see any contours, so if there are a lot of windows on your screen and you want to remove them, just put your thumb on the camera and it will remove all the windows.
+
+You also want to make sure that you're placing the number in the middle of the screen, so that the program can recognize it properly. this is a problem that the first configuration fixed since it's able to zoom in on the number.
+<img src="readmeImgs/placement.png" width="400">
 
 
 ## Authors
@@ -49,23 +55,11 @@ Contributors names and contact info
 [@TrakeLean](https://github.com/TrakeLean)
 [@Snusemumrikken](https://github.com/Snusemumrikken)
 
-## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
-
 ## Acknowledgments
 
 Inspiration, code snippets, etc.
 * [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+* [NeuralNine](https://www.youtube.com/watch?v=t0EzVCvQjGE)
+* [NeuralNine](https://www.youtube.com/watch?v=bte8Er0QhDg)
+* [freeCodeCamp.org](https://www.youtube.com/watch?v=oXlwWbU8l2o)
+* [Stackoverflow](https://stackoverflow.com/)
