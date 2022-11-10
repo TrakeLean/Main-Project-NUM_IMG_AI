@@ -64,8 +64,7 @@ this is a problem that the first configuration fixed since it's able to zoom in 
 
 ## Acknowledgments
 
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
+* [MNIST](https://yann.lecun.com/exdb/mnist/)
 * [NeuralNine](https://www.youtube.com/watch?v=t0EzVCvQjGE)
 * [NeuralNine](https://www.youtube.com/watch?v=bte8Er0QhDg)
 * [freeCodeCamp.org](https://www.youtube.com/watch?v=oXlwWbU8l2o)
