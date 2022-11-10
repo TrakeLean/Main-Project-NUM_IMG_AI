@@ -1,6 +1,6 @@
 # Main-Project: Number Recognition
 
-An AI that's able to recognize the digits from 0 to 9. through your webcam. It's based on the MNIST dataset. It's a simple neural network with 1 hidden layers. It has 784 neurons. The activation function is ReLU. The optimizer is Adam. The loss function is categorical crossentropy. The accuracy is 98%.
+An AI that's able to recognize the digits from 0 to 9. through your webcam, based of the MNIST dataset. It's a simple neural network with 1 hidden layer. It has 32 neurons. The activation function is ReLU. The optimizer is Adam. The loss function is sparse categorical crossentropy. The accuracy is ≈98%.
 
 ## Getting Started
 
