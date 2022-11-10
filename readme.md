@@ -44,13 +44,19 @@ You have to run the program in a dark room for it to work properly. If you have 
 
 The program removes all the extra windows created while running when it doesn't see any contours, so if there are a lot of windows on your screen and you want to remove them, just put your thumb on the camera and it will remove all the windows.
 
-You also want to make sure that you're placing the number in the middle of the screen, so that the program can recognize it properly. this is a problem that the first configuration fixed since it's able to zoom in on the number.
+To shut the program down you have to press "q" on your keyboard.
+
+You also want to make sure that you're placing the number in the middle of the screen, so that the program can recognize it properly.
 <img src="readmeImgs/placement.png" width="400">
 
+this is a problem that the first configuration fixed since it's able to zoom in on the number.
 
+* Configuration 1:
+<img src="readmeImgs/config1.png" width="250">
+
+* Configuration 2:
+<img src="readmeImgs/config2.png" width="250">
 ## Authors
-
-Contributors names and contact info
 
 [@TrakeLean](https://github.com/TrakeLean)
 [@Snusemumrikken](https://github.com/Snusemumrikken)
