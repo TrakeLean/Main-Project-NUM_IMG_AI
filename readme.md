@@ -36,7 +36,7 @@ The last one runs fine without any bugs, while the first one has a bug that make
 the thing you have to be careful of when use the first configuration, is not creating any contours that has x or y values below the value in variable "init_zoom" in the function crop_shape. If you do, the program will crash.
 
 Here's the crash boundaries for the first configuration, when the "init_zoom" is 170:
-<img src="readmeImgs/boundaries.png" width="500">
+<img src="readmeImgs/boundaries.png" width="300">
 
 ## Help
 
