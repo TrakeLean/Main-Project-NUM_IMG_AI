@@ -58,8 +58,8 @@ this is a problem that the first configuration fixed since it's able to zoom in 
 <img src="readmeImgs/config2.png" width="250">
 ## Authors
 
-[@TrakeLean](https://github.com/TrakeLean)
-[@Snusemumrikken](https://github.com/Snusemumrikken)
+* [@TrakeLean](https://github.com/TrakeLean)
+* [@Snusemumrikken](https://github.com/Snusemumrikken)
 
 ## Acknowledgments
 
